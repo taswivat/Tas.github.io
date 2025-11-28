@@ -37,6 +37,16 @@ cursor:url("jatu.png"),auto; height:100vh;}
         75% {box-shadow: 0 0 20px blue; }
         100%{box-shadow: 0 0 20px purple; }
       }
+
+      .blink-bg{
+      animation: blinkbg 1s infinite alternate;
+        padding: 4px 6px;
+      }
+      @keyframes blinkbg {
+        0% {background: yellow;}
+        100% {background: orange;}
+      }
+      
     </style>
   </head>
   <body background="https://t4.ftcdn.net/jpg/03/47/84/19/360_F_347841963_CaaqFyprXPVqf8f5XlVr3HkJ2sbaUmhW.jpg">
