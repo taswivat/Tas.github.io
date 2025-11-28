@@ -30,6 +30,13 @@ cursor:url("jatu.png"),auto; height:100vh;}
       .zoom:hover{transform: scale(1.5); cursor:pointer;}
 
       img:hover{animation:glowcolors 1.2s infinite alternate; }
+      @keyframes glowcolors {
+        0% {box-shadow: 0 0 20px green; }
+        25% {box-shadow: 0 0 20px yellow; }
+        50% {box-shadow: 0 0 20px pink; }
+        75% {box-shadow: 0 0 20px blue; }
+        100%{box-shadow: 0 0 20px purple; }
+      }
     </style>
   </head>
   <body background="https://t4.ftcdn.net/jpg/03/47/84/19/360_F_347841963_CaaqFyprXPVqf8f5XlVr3HkJ2sbaUmhW.jpg">
